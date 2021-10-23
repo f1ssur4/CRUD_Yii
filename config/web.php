@@ -49,7 +49,8 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                '/' => 'site/index'
+                '/' => 'keyboard/index',
+                '/create' => 'keyboard/create',
             ],
         ],
 
